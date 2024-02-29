@@ -1,11 +1,15 @@
-import { BasicTable} from './components/BasicTable';
+import  {BasicTable} from './components/BasicTable';
 import TableWithFooter from './components/TableWithFooter';
+import  {SortingTable}  from './components/SortingTable';
 import './App.css';
+import { FilterTable } from './components/FilterTable';
+
 
 function App() {
   return (
     <div className="App">
-      <TableWithFooter/>
+      
+      <FilterTable/>
      
     </div>
   );
@@ -13,3 +17,5 @@ function App() {
 
 export default App;
 //<BasicTable/>
+//<TableWithFooter/>
+//<SortingTable/>
