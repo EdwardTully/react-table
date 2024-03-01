@@ -1,7 +1,7 @@
 import React from 'react'
 
 function GlobalFilter({filter, setFilter}) {
-    //this funct destructer the props, which we will include in the jsx below
+    //this funct destructure the props, which we will include in the jsx below
   return (
     <span>
         Search:  {'   '}
